@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // litreral array 
+        var a=["Aminul","nayem","jannatual","kabila"]
+        console.log(a)
+        console.log(a.length)
+        console.log(typeof(a))
+
+        // array constractor
+        var a1=Array("Aminul","nayem","jannatual","kabila")
+        console.log(a1)
+        console.log(a1.length)
+        console.log(typeof(a1))
+
+        // array object 
+        var a2=new Array("Aminul","nayem")
+        console.log(a2)
+
+        // array traversing
+        var b=["Aminul","nayem","jannatual","kabila"]
+        for(var i=0;i<b.length;i++){
+            console.log(b[i])
+        }
+
+        // sum of array data
+        var b1=[1,2,3,4,5,6,7,8,9]
+        // var sum=0;
+        // for(var i=0;i<b1.length;i++){
+        //     sum=sum+b1[i]
+        // }
+        // console.log(sum)
+    
+        // odd even
+        // for(var i=0;i<b1.length;i++){
+        //     if(b1[i]%2!==0){
+        //         console.log(b1[i])
+        //      }
+        // }
+        // pop and push 
+        var nam=["aminul","nayem","jannatual"]
+        console.log(nam)
+        console.log(nam.length)
+        var c=nam.push("kabila")
+        console.log(nam)
+        console.log(nam.length)
+
+        var c1=nam.pop()
+        console.log(nam)
+        // shift ,unshift
+        var c2=nam.shift()
+        console.log(nam)
+        var c3=nam.unshift("aminul")
+        console.log(nam)
+
+        //splice
+        var d=["banan","apple","orrange","guva"]
+        var d1=d.splice(2,0,"pinapple")
+        console.log(d)
+        console.log(d.splice(2,2))
+        console.log(d)
+        // slice
+        var e=["banan","apple","orrange","guva"]
+        var e1=e.slice(2)
+        console.log(e)
+        console.log(e1)
+            // tostring
+        var e2=e.toString()
+        console.log(e2)
+    </script>
+</body>
+</html>
